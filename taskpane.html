@@ -1,30 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <!-- Office JavaScript API -->
-    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+    <title>My Outlook Add-in</title>
+    <!-- Add your styles or external CSS links here if needed -->
 </head>
-
 <body>
-    <p>This add-in will retrieve the email subject.</p>
-    <button id="getSubjectButton">Get Email Subject</button>
-
-    <script>
-        // Define the function to get the email subject
-        function getCaseDetails() {
-            Office.onReady(function() {
-                var item = Office.context.mailbox.item;
-                var subject = item.subject;
-                console.log("Email Subject:", subject);
-            });
-        }
-
-        // Add event listener to the button to call the function
-        document.getElementById('getSubjectButton').addEventListener('click', function() {
-            getCaseDetails(); // Call the function when the button is clicked
-        });
-    </script>
+    <div>
+        <h1>Outlook Add-in</h1>
+        <button id="getSubjectButton">Get Email Subject</button>
+    </div>
+    <script src="taskpane.js"></script>
 </body>
-
 </html>
