@@ -41,26 +41,3 @@
     }
 
 </script>
-
-<!--
-</html>
-    /**
-     * Saves the current email as an .msg file.
-     */
-    function saveAsMsg() {
-        Office.context.mailbox.item.saveAsync(
-            function (asyncResult) {
-                if (asyncResult.status === Office.AsyncResultStatus.Succeeded) {
-                    // File saved successfully, notify the user or perform further actions
-                    alert("Email saved as .msg file!");
-                } else {
-                    // Handle failure
-                    console.error("Failed to save the email as .msg file:", asyncResult.error.message);
-                    alert("Failed to save the email as .msg file");
-                }
-            },
-            { "fileType": "msg" } // Specify the fileType as 'msg'
-        );
-    }
-</script>
--->
