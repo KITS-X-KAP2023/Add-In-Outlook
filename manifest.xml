@@ -3,9 +3,9 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-  <Id>YOUR_ADDIN_ID</Id>
+  <Id>1e7e38da-7ad6-429a-9c6f-81aa1b9c9344</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Your Company</ProviderName>
+  <ProviderName>KITS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Your Outlook Add-in Name"/>
   <Description DefaultValue="Description of your Outlook Add-in."/>
@@ -55,7 +55,7 @@
       <bt:Url id="getSubjectTaskpane" DefaultValue="https://kits-x-kap2023.github.io/Add-In-Outlook/taskpane.html"/>
     </bt:Urls>
     <bt:ShortStrings>
-      <bt:String id="groupLabel" DefaultValue="Your Group Label"/>
+      <bt:String id="groupLabel" DefaultValue="KITS Add-in"/>
       <bt:String id="getSubjectLabel" DefaultValue="Get Email Subject"/>
       <bt:String id="getSubjectTitle" DefaultValue="Get Email Subject"/>
       <bt:String id="getSubjectDesc" DefaultValue="Click to retrieve the email subject."/>
